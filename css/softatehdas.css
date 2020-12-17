@@ -1,0 +1,343 @@
+a, a:visited {
+    position: relative;
+    color: black;
+    text-decoration: underline;
+}
+h2 {
+    font-size: 150%;
+    margin: 0px;
+    padding: 16px 0px 8px 0px;
+    text-shadow: white 1px 1px 0px;
+}
+h1, h2, h3, h4, h5 {
+    clear: both;
+    color: black;
+    margin: 0px;
+    padding: 16px 0px 8px 0px;
+}
+p {
+    margin: .5em 0em 1em 0em;
+}
+body, html {
+    font-family: "Trebuchet MS", "Calibri", "Arial", "Sans-serif";
+    background-color: #dfe6f0;
+    font-size: 14px;
+    background-image: url(/images/gradient.jpg);
+    background-position: top;
+    background-repeat: repeat-x;
+    margin: 0px;
+    padding: 0px;
+    color: #3a3a3a;
+}
+#clouds {
+    height: 512px;
+    min-width: 835px;
+    background-image: url(/images/clouds.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+
+}
+#header {
+    height: 130px;    
+    width: 835px;
+}
+
+#page {
+    width: 835px;
+    margin: 0 auto;
+}
+#logo {
+    width: 290px;
+    height: 51px;
+    position: absolute;
+    left: 0px;
+    bottom: 4px;
+}
+#header h1 {
+    margin: 0px;
+    padding: 0px;
+}
+a img {
+    border: 0px;
+}
+.whiteBox {
+    height: 280px;
+    width: 835px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+#topBox {
+    background-image: url(/images/box_top.png);
+}
+.relativeBox {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.titleImage {
+    float: right;
+    padding-top: 33px;
+    padding-right: 45px;
+/*    position: absolute;
+    right: 45px;
+    top: 33px;
+    width: 390px;*/
+}
+#bottomBox {
+    background-image: url(/images/box_bottom.png);
+}
+#menuContainer {
+    padding: 0px 0px 0px 15px;
+    margin: 0px;
+    position:absolute;
+    bottom: 6px;
+    right: 3px;
+    height: 36px;
+    border: solid yellow 0px;
+}
+#mainMenu {
+    border: solid red 0px;
+    padding: 0px;
+    height: 36px;
+    line-height: 36px;
+    margin: 0px;
+    background-position: center right;
+    background-repeat: no-repeat;
+    position:absolute;
+    bottom: 7px;
+    right: 3px;
+    font-weight: bold;
+}
+#mainMenu li {
+    border: solid red 0px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    height: 36px;
+    font-size: 16px;
+    background-image: url(/images/menu_background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+}
+#mainMenu li.first-child {
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+}
+#mainMenu li.last-child {
+    background-image: url(/images/menu_background.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-right: 15px;
+}
+#mainMenu a, #mainMenu a:hover, #mainMenu a:visited {
+    color: black;
+    padding: 0px 15px;
+    height: 36px;
+    display: inline-block;
+    line-height: 36px;
+    text-decoration: none;
+    background-position: top center;
+    background-repeat: no-repeat;
+    text-shadow: white 1px 1px 0px;
+}
+#mainMenu a.active {
+    background-image: url(/images/menu_active.gif);
+}
+#mainMenu a:hover {
+    color: #355785;
+    background-position: top center;
+    background-image: url(/images/menu_hover.gif);
+    background-repeat: no-repeat;
+}
+
+#grayLogo {
+    vertical-align: middle;
+}
+.footer {
+    color: #7f7f7f;
+    font-size: 80%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.footer div.contact {
+    margin-left: 50px;
+    display: inline;
+    text-shadow: 1px 1px 0 white;
+}
+.footer a, .footer a:visited {
+    color: #7f7f7f;
+}
+.footer a:hover {
+    color: black;
+}
+.slogan {
+    font-size: 130%;
+    position: absolute;
+    width: 480px;
+    top: 75px;
+    left: 30px;
+    font-style: italic;
+    text-shadow: silver 2px 2px 2px;
+    color: black;
+}
+#errorSlogan {
+    top: 60px !important;
+}
+#mainSlogan {
+    top: 70px !important;
+    font-size: 31px !important;
+}
+.slogan h2 {
+    font-size: 55px;
+}
+#referenceMonitor {
+    text-align: center;
+    position: absolute;
+    left: 323px;
+    z-index: 100;
+    top: 55px;
+    font-size: 13px;
+}
+.screenshot {
+    position: absolute;
+    left: 331px;
+    top: 75px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+#referenceShots .active {
+    z-index:10;
+}
+#referenceShots .last-active {
+    z-index:9;
+}
+#serviceBox {
+    left: 20px;
+}
+#referenceBox {
+    left: 295px;
+    text-align: center;
+}
+#companyBox {
+    right: 20px;
+}
+.infoColumn {
+    position: absolute;
+    width: 245px;
+    top: 17px;
+    height: 250px;
+    overflow: auto;
+    color: #4c4c4c;
+    line-height: 150%;
+    font-size: 13px;
+}
+.infoColumn a, .infoColumn a:visited, #referenceMonitor a, #referenceMonitor a:visited {
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+.infoColumn a:hover, #referenceMonitor a:hover {
+    text-decoration: underline;
+    color: #425e94;
+}
+.infoColumn h2 {
+    color: black;
+    padding-top: 8px;
+    
+}
+.infoColumn h2 a, .infoColumn h2 a:visited {
+    font-style: normal !important;
+    text-decoration: none;
+}
+
+.borderBottom {
+    padding: 9px 30px 30px 30px;
+    line-height: 150%;
+    background-image: url(/images/border_bottom.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    border-bottom: solid #dfe6f0 1px;
+}
+.borderTop {
+    background-image: url(/images/border_top.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    border: solid #dfe6f0 0px;
+    border-bottom: solid #dfe6f0 1px;
+}
+.borderSides {
+    background-image: url(/images/border_sides.jpg);
+    background-position: center center;
+    background-repeat: repeat-y;
+    border: solid #dfe6f0 0px;
+    border-bottom: solid #dfe6f0 1px;
+}
+.rightFloat {
+    float: right;
+    padding-left: 5px;
+    margin-right: -25px;
+}
+.leftFloat {
+    float: left; 
+    margin-left: -27px;
+    padding-right: 10px;
+}
+h3.references {
+    clear: none !important;
+    padding-top: 20px;
+    text-shadow: white 1px 1px 0px;
+}
+h2.references {
+    clear: both;
+}
+.caseDescription {
+    margin-right: 270px;
+    padding-bottom: 20px;
+}
+.caseDescription p {
+    padding-left: 20px;
+}
+.referenceScreenshot {
+
+}
+ul.referencelist {
+    padding: 0px;
+    margin: 30px 0 0 0;
+    list-style: none;
+}
+ul.referencelist li {
+    float: left;
+    width: 49%;
+    height: 280px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+ul.referencelist li h3 {
+    font-size: 15px;
+    padding: 0px;
+}
+ul.referencelist li a {
+    font-size: 12px;
+}
+.nowrap {
+    white-space: nowrap;
+}
+.columnDivider {
+    background-image: url(/images/horizontal_bar.gif); 
+    background-position: center center; 
+    background-repeat: repeat-y;
+}
+a.fancybox {
+    cursor: -moz-zoom-in; 
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+}
+.quote {
+    font-style: italic;
+    color: #1C3460;
+}
